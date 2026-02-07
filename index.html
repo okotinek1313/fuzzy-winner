@@ -5,11 +5,18 @@
         Make Your Robot Work
     </button>
 
+    <button onclick="no()">
+        NO
+    </button>
+
     <h1 id="field"></h1>
 
     <script>
         function MakeRobotWork() {
             document.getElementById("field").innerHTML = "Your Robot Works Now";
+        }
+        function no() {
+            document.getELementById("field").innerHTML = " ";
         }
     </script>
 </body>
